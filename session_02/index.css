@@ -1,0 +1,79 @@
+.car img{
+    border: 1px solid red;
+    cursor: pointer;
+    position: relative;
+    left: 138px;
+    padding-left: 100px;
+}
+#op{
+    background-color: rgb(255, 255, 255);
+}
+
+h1{
+    background-color: aqua;
+}
+
+body{
+    margin: 10px;
+    padding: 10px;
+}
+
+form{
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 512px;
+
+     margin-right: 380px; 
+    margin-left: 100px; 
+    padding: 50px;
+    margin: 10px;
+}
+/* form input:hover{
+    background-color: blue;
+} */
+form input:focus{
+    background-color: yellow;
+}
+
+#bh{
+    background-color: red;
+    color: white;
+    height: 39x;
+    width: 133px;
+    cursor: pointer;
+}
+
+button{
+    background-color: red;
+    color: white;
+    height: 39x;
+    width: 133px;
+    cursor: pointer;
+
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: beige;
+}
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(31, 29, 29);
+}
+
+li a:hover{
+    background-color: aqua;
+    color: rgb(130, 129, 128);
+}
